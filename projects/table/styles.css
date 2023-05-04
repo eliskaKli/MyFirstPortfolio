@@ -1,0 +1,69 @@
+* {
+    background-color: darkslategray;
+    color: oldlace;
+    font-family: Cambria, Georgia, 'Times New Roman';
+}
+
+h1, h2 {
+    text-align: center;
+    color: darkslategray;
+}
+
+h1 {
+    background-color: seagreen;
+    color: palegreen;
+    padding: 10px 0;
+    margin: 20px auto;
+    width: 70%;
+    border-radius: 10px;
+}
+
+h2 {
+    background-color: seagreen;
+    width: 30%;
+    margin: 10px auto;
+    padding: 5px 0;
+    border-radius: 10px;
+}
+
+table, td {
+    border: 2px solid;
+    border-color: seagreen;
+    background-color: mediumseagreen;
+}
+
+th, td {
+    padding: 2px 5px;
+}
+
+table {
+    border-radius: 5px;
+}
+
+.both_tables {
+    position: relative;
+    width: 70%;
+    overflow: hidden;
+    margin: auto;
+    margin-bottom: 20px;
+    display: flex table-column;
+    background-color: mediumseagreen;
+    border-radius: 10px;
+
+}
+
+#tags {
+    margin: 10px auto 30px;
+}
+
+#attributes {
+    margin: 10px auto 50px;
+}
+
+.code {
+    font-family: monospace;
+    color: darkslategray;
+    background-color: PaleGreen;
+}
+
+

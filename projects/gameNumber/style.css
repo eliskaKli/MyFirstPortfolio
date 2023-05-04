@@ -1,0 +1,66 @@
+* {
+    font-family: 'Georgia';
+    font-weight: 200;
+    font-size: 20px;
+    
+}
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #667292;
+    color: #f1e3dd;
+    min-height: 100vh;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+h1 {
+    font-weight: 800;
+    font-size: 45px;
+
+}
+
+.gameplay-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+.before-game .play-again {
+    display: none;
+}
+
+.before-game .current-guess-section {
+    display: none;
+}
+
+.before-game .gameplay-section {
+    display: none;
+}
+
+.during-game .start-game{
+    display: none;
+}
+
+.after-game .start-game {
+    display: none;
+}
+
+.after-game .gameplay-section {
+    display: none;
+}
+
+button {
+    background-color: #8d9db6;
+    color: #f1e3dd;
+    border: 3px solid #bccad6;
+    border-radius: 8px;
+    padding: 10px;
+}
+

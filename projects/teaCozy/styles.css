@@ -1,0 +1,139 @@
+body {
+    font-family: Helvetica, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+}
+
+/* MENU */
+.top {
+    height: 69px;
+    width: 100%;
+    border-bottom: 1px solid seashell;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end; 
+    background-color: black;   
+}
+
+#menu {
+   display: flex;
+   text-decoration: underline;
+   gap: 25px;
+   list-style-type: none;
+}
+
+#logo {  
+    height: 50px; 
+    margin-left: 10px;
+    position: absolute;
+    left: 10px;
+}
+
+/* mainBody */
+.mainBody {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center; 
+}
+
+/* SECTION Our Mission */
+.container-OurMission {
+    height: 700px;
+    width: 1200px;
+    display: flex;
+    align-items: center;
+    background-image: url(images/img-mission-background.jpg);
+}
+
+.container-OurMission-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: black;
+    width: 100%;
+}
+
+.container-OurMission-text h2, .container-OurMission-text h4 {
+    padding: 8px 0;
+    margin: 0;
+}
+
+/* SECTION: Tea of the Month*/ 
+.container-Month {
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 30px auto;
+}
+
+.container-imagesList1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.container-imagesList2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 25px;
+    gap: 50px;
+}
+
+.img-Month {
+    width: 300px;
+    height: 200px;
+}
+
+.small-img h4 {
+    padding: 10px 0 0;
+    margin: 0;
+}
+
+/* SECTION: Location*/ 
+
+.container-Locations {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    background-image: url(images/img-locations-background.jpg);
+    height: 550px;
+    width: 1200px; 
+    margin-top: 20px;
+}
+
+.boards {
+    display: inline-flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.oneBoard {
+    width: 300px;
+    background-color: black;
+    opacity: 1;
+}
+
+.container-Locations h2 {
+    padding-top: 30px;
+}
+.boards p  {
+    line-height: 3;
+} 
+
+/* SECTION: The Tea Cozy*/ 
+
+.teaCozy {
+    height: 200px;
+    font: bold;
+}
+
+/* SECTION: Copyright*/ 
+footer {
+   text-align: left; 
+   padding: 20px;
+}

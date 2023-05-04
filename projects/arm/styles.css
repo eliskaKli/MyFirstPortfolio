@@ -1,0 +1,221 @@
+html {
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #ECECEC;
+    color:black;
+}
+
+a {
+    text-decoration: none;
+    color: #ECECEC;
+}
+
+/* .container-img {
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    margin: 0 auto;
+} */
+
+.main-content {
+   top: 4rem;
+   display: inline-block;
+   justify-content: center;
+   flex-direction: column;
+   position: relative;
+   width: 100%;
+}
+
+
+/* button {
+    color: #ECECEC;
+    background-color: #B30738;
+    padding: 0.4rem 0.6rem;
+    margin: 0.2rem 0.2rem;
+    border-radius: 0.5rem;
+} */
+
+/** Header **/
+.menu {
+    background-image: url("images/topline_double.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    width: 100%;
+    height: 3.7rem;
+    padding: 0.4rem;
+    position: fixed;
+    top: 0;
+    z-index: 100;
+    text-transform: uppercase;
+}
+
+
+header nav ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    align-content: flex-end;
+    gap: 2rem;
+}
+
+header nav a { 
+    font-size: 1.2rem;
+}
+
+.menu-mobile {
+    display: none;
+}
+
+/** Main Content **/
+
+/* Banner */
+.banner {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    overflow: hidden;
+    background-image: url(images/team.JPG);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    width: 100%;
+    height: 20rem;
+    opacity: 0.7;
+}
+
+.banner-bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30%;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+.banner-bar img {
+    width: 30%;
+    height: auto;
+}
+
+/* Slogan */
+#slogan {
+    text-align: right;
+    align-content: center;
+    font-size: 1.5rem;
+    color: #ECECEC;
+    background-image: url("images/topline_double.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    width: auto;
+    height: 3.7rem;
+    padding: 0.5rem 2.25rem;
+}
+
+/* Services */
+#services {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: stretch;
+    gap: 0.25rem;
+    width: 100%;
+    background-color: #003E7A;
+}
+
+.service {
+    padding: 0.4rem;
+    text-align: center;
+    background-color: #ECECEC;
+    border-radius: 0.125rem;
+    margin: 4.5%;
+    width: 30%;
+}
+
+.service h2 {
+    text-transform: uppercase;
+    color: #ECECEC;
+    background-color: #B30738;
+    padding: 0.4rem 0.5rem;
+    margin: 0.4rem 0.4rem;
+    border-radius: 0.6rem;
+}
+
+.service a:hover {
+    text-decoration: underline;
+}
+
+.service a:before {
+    color: #A1A1A4;  
+}
+
+/* Team */
+#team {
+    background-color: white;
+    padding-top: 2rem;
+}
+
+#team h2 {
+    text-align: center;
+    font-size: 2rem;
+    text-transform: uppercase;
+    color:#B30738
+}
+
+
+.container-team {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-around;
+
+}
+
+.team-profile {
+    display: flex;
+    max-width: 45%;
+    min-width: 20%;
+    height: 13rem;
+    flex-direction: row;
+    align-items: center;
+    /* background-color: #A1A1A4; */
+    padding: 0.4rem 0.5rem;
+    margin: 2rem;
+    border-radius: 0.6rem;
+    color: #003E7A;
+    gap: 1.5rem;
+}
+
+.team-profile h3 {
+    text-transform: uppercase;
+}
+
+.profile-photo {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border-color: #B30738;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.VN-photo {
+    background-image: url("images/VN.jpg");
+}
+
+.KH-photo {
+    background-image: url("images/KH.jpg");
+}
+
+.KK-photo {
+    background-image: url("images/KK.jpg");
+}
+
+.profile-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    line-height: 0.5;
+}
