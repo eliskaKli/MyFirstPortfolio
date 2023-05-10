@@ -1,26 +1,33 @@
-// console.log('čusík'); // tohle  jako jediné funguje :-(
+// Mám podezření, že mi to nefunguje nějak kvůli aktivnímu Gitu (kterému nerozumím)
 
-// const buttons = document.querySelectorAll('button');
-// console.log(buttons);    
 
-// const name = document.getElementById('nameEK');
-// console.log(name);
+// --- TESTOVÁNÍ FUNKČNSTI ---
+// tohle  jako jediné funguje:
+console.log('čusík'); 
+
+// háže mi nějaký prázdný NodeList (nerozumím):
+const buttons = document.querySelectorAll('button');
+console.log(buttons);    
+
+// Vrací hodnotu null:
+const myName = document.getElementById('nameEK');
+console.log(myName);
+
+// TypeError (proč??):
+document.getElementsByClassName('button').style.background='yellow';
     
-// document.getElementById('nameEK').innerHTML='Pampík';
-// document.querySelector('h1').innerHTML='JavaScript propojen :-)';
+// ------
 
-// document.getElementsByClassName('button').style.background='yellow';
+// --- DOM kód (ale moc si to nepamatuji, tak jen pracovní pokus) ---
+// CÍL: Po načtení stránky se udělá animace podbarvení .container-header
 
-
-
-// Po načtení stránky se udělá animace podbarvení .container-header
-
-// function changeBackgroundColor() {
-//     document.getElementsByClassName('container-header').style.background = 'linear-gradient(90deg, #4F0E1A 0%, #443A53 21.92%, #3184B4 110.74%)';
-// }
+function changeBackgroundColor() {
+     document.getElementsByClassName('container-header').style.background = 'linear-gradient(90deg, #4F0E1A 0%, #443A53 21.92%, #3184B4 110.74%)';
+ }
 
 // let header = document.getElementByClassName('container-header');
-// header.onclick = changeBackgroundColor;
-// header.timeStamp
+
+window.onload= changeBackgroundColor;
+header.timeStamp
 
 // About me - zobrazuje se správně #desktop/#tabletMobile

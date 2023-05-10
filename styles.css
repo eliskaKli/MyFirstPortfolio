@@ -108,10 +108,10 @@ nav li {
     gap: 10em;
     top: 81px;
     margin: 1em auto;
-    background: linear-gradient(90deg, #4F0E1A 0%, #443A53 68.63%, #3184B4 110.74%);
     padding: 1em 3em;
     border-radius: 10px;
     z-index: 2;
+    background: linear-gradient(90deg, #4F0E1A 0%, #443A53 68.63%, #3184B4 110.74%);
 }
 
 #nameEK {
