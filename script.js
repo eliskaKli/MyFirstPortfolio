@@ -6,15 +6,18 @@
 console.log('čusík'); 
 
 // háže mi nějaký prázdný NodeList (nerozumím):
-const buttons = document.querySelectorAll('button');
-console.log(buttons);    
+document.addEventListener('DOMContentLoaded', function(){
+    const buttons = window.document.querySelectorAll('button');
+    console.log(buttons);    
+})
+
 
 // Vrací hodnotu null:
 const myName = document.getElementById('nameEK');
 console.log(myName);
 
 // TypeError (proč??):
-document.getElementsByClassName('button').style.background='yellow';
+console.log(document.getElementsByClassName('button')[0].style.backgroundColor='yellow')
     
 // ------
 
@@ -22,12 +25,15 @@ document.getElementsByClassName('button').style.background='yellow';
 // CÍL: Po načtení stránky se udělá animace podbarvení .container-header
 
 function changeBackgroundColor() {
-     document.getElementsByClassName('container-header').style.background = 'linear-gradient(90deg, #4F0E1A 0%, #443A53 21.92%, #3184B4 110.74%)';
- }
+    document.getElementsByClassName('container-header')[0].style.background = 'black';
+    // 'linear-gradient(90deg, #4F0E1A 0%, #443A53 21.92%, #3184B4 110.74%)'; TADY JE TEN BAREVNÝ PROBLÉM
+    console.log('tady')
+    
+    }
 
 // let header = document.getElementByClassName('container-header');
 
 window.onload= changeBackgroundColor;
-header.timeStamp
+// header.timeStamp
 
 // About me - zobrazuje se správně #desktop/#tabletMobile
