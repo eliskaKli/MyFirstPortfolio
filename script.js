@@ -15,17 +15,14 @@ document.addEventListener('DOMContentLoaded', function(){
 // Vrací hodnotu null:
 const myName = document.getElementById('nameEK');
 console.log(myName);
-
-// TypeError (proč??):
-console.log(document.getElementsByClassName('button')[0].style.backgroundColor='yellow')
-    
+ 
 // ------
 
 // --- DOM kód (ale moc si to nepamatuji, tak jen pracovní pokus) ---
 // CÍL: Po načtení stránky se udělá animace podbarvení .container-header
 
 function changeBackgroundColor() {
-    document.getElementsByClassName('container-header')[0].style.background = 'black';
+    document.getElementsByClassName('container-header')[0].style.background = 'linear-gradient(90deg, #4F0E1A 0%, #443A53 21.92%, #3184B4 110.74%)';
     // 'linear-gradient(90deg, #4F0E1A 0%, #443A53 21.92%, #3184B4 110.74%)'; TADY JE TEN BAREVNÝ PROBLÉM
     console.log('tady')
     
