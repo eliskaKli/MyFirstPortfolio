@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@300;400;500;600;700');
+@import url('https://fonts.googleapis.com/css2?family=Grenze+Gotisch:wght@100;200;300;400;500;600;700;800;900');
+@import url('https://fonts.googleapis.com/css2?family=Tomorrow:wght@400;700;800&display=swap');
+
+body {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    color: #004445;
+    background-color: #faf5e4;
+}
+
+h1, h2 {
+    color: #004445;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;    
+    width: 85%;
+    border: 2px solid grey;
+    border-radius: 5px;
+    margin: 8px auto; 
+    background-color: white;
+}
+
+.colors {
+    display: flex;
+    justify-content: center;
+    padding: 0 10px;
+    margin: 0;
+    color: darkgray;
+}
+
+.colorBackground {
+    width: 180px;
+    height: 100px;
+    padding: 5px;
+    margin: 15px auto;
+}
+
+#firstColor {
+    background-color: #f8b400;
+}
+
+#secondColor {
+    background-color: #faf5e4;
+}
+
+#thirdColor {
+    background-color: #2c786c;
+}
+
+#fourthColor {
+    background-color: #004445;
+}
+
+.font-container {
+    display: inline-block;
+    width: auto; 
+}
+.font-panel {
+    justify-content: left;
+    display: inline-block;
+    width: 45%; 
+}
+
+.cormoranSC {
+    font-family: 'Cormorant SC';
+}
+
+.grenzeGotisch {
+    font-family: 'Grenze Gotisch';
+}
+
+.Tomorrow {
+    font-family: 'Tomorrow';
+}
+
+.font-label {
+    text-decoration: underline;
+}
+
+.normal {
+    font-weight: 400;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.hDescription h3, .hDescription ul, .hDescription p {
+    color: #004445;
+}

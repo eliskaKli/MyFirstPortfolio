@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Myslím si číslo a počítač hádá</title>
+    <script src="game.js"></script>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body class="before-game">
+    
+    <h1>Mysli si číslo od 1 do 100</h1>
+    <section> <!-- Myslím si/ nová hra TLAČÍTKA -->
+      <button class="start-game">Už si myslím</button>
+      <button class="play-again">Nová hra</button>
+    </section>
+    <section class="current-guess-section"> <!-- Počítač hádá -->
+        <p>Můj tip: <span class="current-guess">42</span></p>
+    </section>
+    <section class="gameplay-section"> <!-- Navigace hádání -->
+        <button class="guess-higher">Zkus větší</button>
+        <button class="bingo">Trefa</button>
+        <button class="guess-lower">Zkus menší</button>
+    </section>
+
+</body>
+</html>

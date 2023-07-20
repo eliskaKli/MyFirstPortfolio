@@ -1,0 +1,198 @@
+html {
+    font-family: 'Kaushan Script', cursive;
+    font-weight: 400;
+    font-size: 23px;
+    background-color: #6E9E8C;
+    color: white;
+}
+
+@media screen and (max-width: 850px) {
+    html {
+    font-size: 18px;
+}
+}
+
+h2, h3 {
+    font-weight: 400;
+}
+
+#laBoema {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 6.5em; 
+    background-image: url(images/LaBoema_logo1.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: fixed;
+    overflow: visible;
+    z-index: 100;
+}
+
+.mainContent {
+    top: 6.5em;
+    position: relative;
+}
+
+/* Menu */
+.container-menu {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 2.1em auto;
+    gap: 15px;
+
+}
+
+.container-menu a {
+    text-decoration: none;
+    color: white;
+}
+/* 
+.container-menu a:link {
+    text-decoration: none;
+    color: white;
+}
+
+.container-menu a:link {
+    text-decoration: underline;
+}
+
+.container-menu a:active {
+    color:#6E9E8C;
+} */
+
+
+.menu-item {
+    display: flex;
+    width: 5.87em;
+    height: 1.913em;
+    mix-blend-mode: normal;
+    background-color: #f9b233;   
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* Front photo */
+.container-frontPhoto {
+    display: flex;
+    max-width: 80%;
+    max-height: 24em;
+    width: 53.7em;
+    height: 25.87em;
+    background-image: url(images/IMG_20230215_161150.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 1em;
+    position: relative;
+    margin: 0 auto;
+}
+
+.container-frontPhoto img {
+    width: 35%;
+    height: auto;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    position: absolute;
+    right: 3%;
+    bottom: 3%;
+    background-color: #f9b233;
+    border-radius: 1em;
+    padding: 5% 2.4%;
+    margin: 0;
+}
+
+@media screen and (max-width: 890px) {
+    .container-frontPhoto {
+        max-height: 15em;
+    }
+
+}
+
+/* Adress */
+.container-adress {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 4.5em;
+    margin: 2em auto;
+    max-width: 90%;
+}
+
+.adress-map {
+    border: #f9b233 solid 0.2em;
+    border-radius: 1em;
+    width: 32em;
+    height: 10.43em;
+}
+
+.adress-map iframe {   
+    border-radius: 1em;
+}
+
+.adress-text {
+    text-align: center;
+}
+
+/* Sortiment */
+.sortiment {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1em;
+    margin-bottom: 10em;
+}
+
+
+.sortiment-headline {
+    display: flex;
+    justify-content: center;
+}
+
+.sortiment h2 {
+    padding: 0;
+    margin: 0 auto;
+}
+
+.sortiment-everyItem {
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+    margin: 0 auto;
+}
+
+.sortiment-item {
+    background: linear-gradient(180deg, #936037 0%, #CB8D35 28.65%, rgba(249, 178, 51, 0.76) 72.92%, rgba(249, 178, 51, 0) 100%);
+    border-radius: 1em;
+    width: 10em;
+    height: 16.5em;
+    display: flex;
+    flex-direction: column;
+    top: 1.2em;
+    align-items: center;
+}
+
+.sortiment-img {
+    border-radius: 1em;
+    position: relative;
+    width: 85%;
+    height: auto;
+    size: cover;
+    margin: 1em;
+}
+
+.sortiment-item h3 {
+    display: flex;
+    align-items: flex-end;
+    padding: auto;
+    margin: 0 auto 1.1em;
+    
+}

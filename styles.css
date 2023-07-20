@@ -1,0 +1,355 @@
+html {
+    font-family: 'Signika', 'OpenSans', sans-serif;
+    font-size: 16px;
+    color: #EBE1E1;
+    background: linear-gradient(180deg, rgba(79, 14, 26, 100) 15%, rgba(49, 132, 180, 100) 100%);
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: 1.875rem;
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+body {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column; 
+    margin: 0;
+}
+
+.button {
+    width: 100px;
+    height: 43.71px;
+    background: #3184B4;
+    box-shadow: 0px 4px 2px #3184B4;
+    border: none;
+    border-radius: 30px;
+    font-family: 'Signika';
+    font-size: 18px;
+    font-weight: regular;
+    color: #EBE1E1;
+}
+
+.button:hover {
+    box-shadow: none;
+}
+
+.button:active {
+    background: #3170AB;
+}
+
+a {
+    text-decoration: none;
+    color: #EBE1E1;
+}
+
+/* Menu */
+nav {
+    overflow: scroll;
+    position: sticky ;
+    display: flex;
+    justify-content: flex-end;
+    top: 0;
+    width: 100%;
+    margin: 0 auto;
+    overflow: scroll;
+    background-color: #4F0E1A;
+    z-index: 3;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;  
+    margin-right: 20%;
+    padding: 0;
+}
+
+nav li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 1em;
+}
+
+@media only screen and (max-width: 760px) {
+    nav ul {
+        margin: 0.5em auto;
+    }
+}
+
+/* Head */
+#headerGradient {
+    top: 76px;
+    width: 100%;
+    height: auto;
+    z-index: 1;
+    background: linear-gradient(90deg, #4F0E1A 0%, #443A53 27.68%, #3184B4 110.74%);
+    background-size: cover;
+}
+
+.container-header {
+    max-width: 70%;
+    display: flex;
+    justify-content: space-between;
+    gap: 10em;
+    top: 81px;
+    margin: 1em auto;
+    padding: 1em 3em;
+    border-radius: 10px;
+    z-index: 2;
+    background: linear-gradient(90deg, #4F0E1A 0%, #443A53 68.63%, #3184B4 110.74%);
+    transition: background-color 1s linear;
+}
+
+#nameEK {
+    text-transform: uppercase;
+}
+
+@media only screen and (max-width: 480px) {
+    .textField-header {
+        width: 100%;
+        margin: 0 auto;
+    }
+}
+
+
+/* Main */
+main {
+    max-width: 75%;
+    margin: 0 auto;
+}
+
+@media only screen and (max-width: 760px) {
+    main {
+        max-width: 85%;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    main {
+        max-width: 90%;
+    }
+}
+
+/* Projects */
+.projects h2{
+    margin-top: 1em;
+}
+
+.container-projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+    gap: 2em; 
+}
+
+.container {
+    width: 460px;
+    height: 350px;
+    background: #EBE1E1;
+    border-radius: 20px;
+    color: #4F0E1A;
+    display: flex;
+
+
+}
+
+.view {
+    width: 200px;
+    max-height: 90%;
+    margin: 1.1em;
+    border-radius: 20px;
+    background-color: lightgray;
+    flex: 1 1 200px;
+    
+}
+
+.textField {
+    max-width: 50%;
+    margin: 1.1em 1.1em 1.6em 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+}
+
+.textField h3, .textField p {
+    margin-bottom: 0;
+}
+
+.textField button {
+    position: relative;
+    margin: 0 auto;
+}
+
+#table {
+    background-image: url(images/table.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#arm {    
+    background-image: url(images/arm.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#teaCozy {    
+    background-image: url(images/teaCozy.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#laBoema {    
+    background-image: url(images/laBoema.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+/* 
+#robots { 
+    background-image: url(;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+} */
+
+#styleGuide {    
+    background-image: url(images/styleGuide.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#gameRPS {
+    background-image: url(images/gameRPS.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#gameNumber {
+    background-image: url(images/gameNumber.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.contact {
+    background-color: #4F0E1A;
+    box-shadow: 0px 6px 4px #4F0E1A;
+    margin: 2em auto 0;
+    display: flex;
+    justify-content: center;
+}
+
+.contact:active {
+    background-color: #5E1C3A;
+}
+
+.contact a {
+    text-decoration: none;
+    color: #EBE1E1;
+}
+
+#contact-white {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media only screen and (max-width: 480px) {
+    .container-projects {
+        gap: 1em;
+    }
+}
+
+/* About Me */
+.aboutMe {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.container-aboutMe {
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#desktop, #tabletMobile {
+    line-height: 1.8;
+}
+
+.profile {
+    border-radius: 50%;
+    max-width: 20% ;
+    margin: 0 5%;
+}
+
+#tabletMobile {
+    display: none;
+}
+/* trablík: nezobrazuje se mi pouze #tabletMobile, 
+je tu stále i #desktop*/
+@media only screen and (max-width: 760px) {
+    #tabletMobile {
+        display: block;
+    };
+    #desktop {
+        visibility: hidden;
+    };
+}
+
+/* Contact */
+.bar {
+    background-color: #EBE1E1;
+    /* position: absolute; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2.6875em 0;
+
+}
+
+.iconDuo {
+    display: inline-flex;
+    flex-direction: column;
+    padding: 2.5em 1.5em;
+}
+
+.iconDuo a {
+    color: #4F0E1A;
+    display: flex;
+    justify-content: center;
+}
+
+.icon {
+    height: 2em;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    margin: 0 0 2em;
+}
+
